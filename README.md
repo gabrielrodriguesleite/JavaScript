@@ -25,6 +25,8 @@ kill `pgrep python3`
 
 Cole esses comandos em um arquivo com que tenha o nome fácil de reconhecer como por exemplo `executar` ou `liveserver` e dê permisão de execução pelo menu gráfico ou pelo terminal com `chmod u+x executar` então para executar seu _Live Server_ basta clicar 2x no arquivo e escolher "executar no terminal" ou executar `./executar` no terminal. 
 
+Na pasta [`util`](./util) você vai encontrar um arquivo `executar` pronto para usar. Apenas confirme que você tem as perimssões de execução necessárias.
+
 Basicamente o que esse script faz é iniciar python3 e rodar um servidor local, deixar em _background_ então iniciar uma janela privativa firefox no endereço que o servidor local foi configurado.
 A segunda linha serve para mostrar a mensagem no terminal com o comando para encerrar o servidor. A terceira linha aguarda qualquer tecla (do teclado) ser pressionada antes de executar a última linha que prontamente encerra o servidor python3.
 
